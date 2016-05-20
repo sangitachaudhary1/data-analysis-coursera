@@ -36,6 +36,5 @@ best <- function(state, outcome) {
   else {
     best <- df2[which.min(df2[, 23]), "Hospital.Name"]
   }
-  
-  best
+  best("SC", "heart attack")
 }
